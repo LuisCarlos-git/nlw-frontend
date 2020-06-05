@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { darken } from "polished";
+import { Link } from "react-router-dom";
 import bg from "../../assets/home-background.svg";
 
 export const Container = styled.div`
@@ -30,7 +31,7 @@ export const Paragraph = styled.p`
   font-size: 1.3em;
   padding: 15px 0;
 `;
-export const Button = styled.button`
+export const Button = styled(Link)`
   display: flex;
   align-items: center;
   border: 0;

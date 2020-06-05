@@ -1,5 +1,5 @@
 import React from "react";
-import { MdSearch } from "react-icons/md";
+import { FiLogIn } from "react-icons/fi";
 
 import Header from "../../components/Header";
 import { Container, Content, Title, Paragraph, Button, Icon } from "./styles";
@@ -18,9 +18,9 @@ const Home: React.FC = () => {
           <br /> de coleta de forma eficiente.
         </Paragraph>
 
-        <Button type="button">
+        <Button to="/register">
           <Icon>
-            <MdSearch size={20} color="#fff" />
+            <FiLogIn size={20} color="#fff" />
           </Icon>
           Casdastrar ponto de coleta
         </Button>

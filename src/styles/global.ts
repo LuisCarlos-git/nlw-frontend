@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
   * {
     margin: 0;
@@ -19,7 +18,9 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font: 14px  Roboto, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+
   }
 
   html,body, #root {
@@ -36,5 +37,9 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  h1,h2,h3 {
+    color: #322153;
   }
 `;

@@ -16,7 +16,7 @@ const Header: React.FC = () => {
       {location.pathname === "/register" ? (
         <Link to="/">
           <Icon>
-            <FiArrowLeft size={20} color="#322153" />
+            <FiArrowLeft size={20} color="#34cb79" />
           </Icon>
           Voltar a pagina inicial
         </Link>

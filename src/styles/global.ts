@@ -17,7 +17,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased !important
   }
 
-  body, input, button {
+  body, input, button, select {
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
 
@@ -25,6 +25,7 @@ export default createGlobalStyle`
 
   html,body, #root {
     height: 100%;
+    background: #ddd;
   }
 
   a {

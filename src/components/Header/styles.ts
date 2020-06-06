@@ -31,6 +31,6 @@ export const Icon = styled.span`
   align-items: center;
 
   &:hover {
-    color: ${darken(0.1, "#322153")};
+    color: ${darken(0.1, "#34cb79")};
   }
 `;
